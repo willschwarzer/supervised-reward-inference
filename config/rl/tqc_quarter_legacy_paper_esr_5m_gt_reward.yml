@@ -1,0 +1,4 @@
+defaults-config: 'tqc_quarter_legacy_paper_esr_5m.yml'
+use-gt-reward: true
+use-gt-goal: true
+no-task-rep: true

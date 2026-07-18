@@ -1,0 +1,3 @@
+defaults-config: 'gt_unscaled_tqc_no_orl_no_esr.yml'
+learning-steps: 20000000
+use-sde: false

@@ -1,0 +1,3 @@
+defaults-config: 'ppo_quarter_legacy_paper_esr.yml'
+use-gt-goal: false
+no-task-rep: true

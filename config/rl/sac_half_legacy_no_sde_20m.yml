@@ -1,0 +1,2 @@
+defaults-config: 'tqc_half_legacy_no_sde_20m.yml'
+algorithm: 'sac'

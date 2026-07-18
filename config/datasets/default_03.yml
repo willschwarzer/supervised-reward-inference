@@ -1,0 +1,4 @@
+defaults-config: 'default.yml'
+goal-y-bounds: [0.3, 0.7]
+# dataset-path: runs/pick-place-v2-goal-observable/rollouts/winter-salad-202
+# dataset-path: runs/reach-v2-goal-observable/rollouts/youthful-morning-188

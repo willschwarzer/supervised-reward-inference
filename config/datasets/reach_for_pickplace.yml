@@ -1,0 +1,11 @@
+defaults-config: 'default_reach.yml'
+circle-around: false
+circle-radius: 0.03
+goal-x-bounds: [-0.7, 0.7]
+goal-y-bounds: [0.3, 1.1]
+goal-z-bounds: [0.0, 0.6]
+random-gripping: true
+horizon: 100
+# num-tasks-per-env: 2
+# num-envs: 16
+# num-rollouts-per-task: 2

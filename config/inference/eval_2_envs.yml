@@ -1,0 +1,2 @@
+defaults-config: 'default_eval.yml'
+batch-size: 2

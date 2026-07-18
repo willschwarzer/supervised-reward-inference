@@ -1,0 +1,4 @@
+defaults-config: 'eval_20_envs.yml'
+env: 'pick-place'
+num-goals: 1
+reinit-obj-pos: true

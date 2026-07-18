@@ -1,0 +1,3 @@
+defaults-config: 'tqc_half_legacy_no_sde_20m.yml'
+learning-rate: 0.0003
+batch-size: 128

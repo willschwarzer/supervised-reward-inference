@@ -1,0 +1,2 @@
+defaults-config: 'ppo_half_legacy_20m.yml'
+batch-size: 5000

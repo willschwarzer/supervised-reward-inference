@@ -1,0 +1,5 @@
+defaults-config: 'default_reach.yml'
+goals-avoid-obj: true
+goals-avoid-obj-xy: true
+goals-avoid-obj-dist: 0.15
+goals-avoid-obj-pos: [0.0, 0.6, 0.02]

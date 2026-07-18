@@ -1,0 +1,5 @@
+defaults-config: 'default.yml'
+baselines: ['bc', 'gail', 'airl']
+bc-epochs: 50
+adv-its: 5000000
+# adv-its: 500000

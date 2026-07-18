@@ -1,0 +1,2 @@
+defaults-config: 'pickplace_single_only_rl.yml'
+reinit-obj-pos: true

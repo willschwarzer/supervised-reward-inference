@@ -1,0 +1,2 @@
+defaults-config: 'tqc_half_legacy_paper.yml'
+extra-success-reward: 5.0

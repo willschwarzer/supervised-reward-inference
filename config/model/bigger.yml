@@ -1,0 +1,6 @@
+defaults-config: 'default.yml'
+demonstration-rep-dim: 256
+internal-tst-dim: 256
+state-rep-dim: 256
+num-demonstration-layers: 4
+num-state-layers: 4

@@ -1,0 +1,2 @@
+defaults-config: 'default.yml'
+output-type: 'action' # options: 'reward', 'goal', 'action'

@@ -1,0 +1,4 @@
+defaults-config: 'gt_unscaled_tqc.yml'
+extra-success-reward: 0.0
+num-envs: 8
+offline-rejection-sampling-bias-factor: 1.0

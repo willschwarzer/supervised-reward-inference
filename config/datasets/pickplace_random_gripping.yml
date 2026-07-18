@@ -1,0 +1,3 @@
+defaults-config: 'default_pickplace.yml'
+horizon: 100
+random-gripping: true

@@ -1,0 +1,3 @@
+defaults-config: 'default_eval.yml'
+batch-size: 20
+episodes: 5

@@ -1,0 +1,2 @@
+defaults-config: 'gt_unscaled_tqc_no_orl_no_esr.yml'
+num-envs: 8

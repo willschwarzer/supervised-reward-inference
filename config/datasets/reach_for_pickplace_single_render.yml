@@ -1,0 +1,7 @@
+defaults-config: 'reach_for_pickplace.yml'
+render: true
+num-envs: 1
+num-rollouts-per-task: 1
+# num-tasks-per-env: 2
+# num-envs: 16
+# num-rollouts-per-task: 2

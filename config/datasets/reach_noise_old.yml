@@ -1,0 +1,2 @@
+defaults-config: 'reach_noise.yml'
+goal-y-bounds: [0.3, 0.7]

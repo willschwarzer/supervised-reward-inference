@@ -1,0 +1,2 @@
+defaults-config: 'n1.yml'
+skip-reward-training: true

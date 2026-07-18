@@ -1,0 +1,13 @@
+defaults-config: 'default.yml'
+env: 'reach'
+horizon: 500
+num-goals: 1
+n: 100
+include-actions: true
+baselines-only: true
+include-partial-reward-info: true
+mask-obj: true
+episodes: 100
+batch-size: 16
+# include-extra-reward-info: true
+# render: true

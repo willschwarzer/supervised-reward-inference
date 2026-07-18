@@ -1,0 +1,5 @@
+defaults-config: 'default_reach.yml'
+circle-around: true
+circle-radius: 0.1
+horizon: 250
+mirror-goal: true

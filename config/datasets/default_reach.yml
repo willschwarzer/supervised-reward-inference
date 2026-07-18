@@ -1,0 +1,2 @@
+defaults-config: 'default.yml'
+random-hand-starts: true

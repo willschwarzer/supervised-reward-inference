@@ -1,0 +1,24 @@
+defaults-config: 'default_push.yml'
+# dataset-path: null
+# circle-around: false
+# circle-radius: 0.1
+# mirror-goal: false
+# env: 'push'
+# noise-coeff: 0.0
+num-tasks-per-env: 3
+num-envs: 6
+num-rollouts-per-task: 10
+# goal-x-bounds: [-0.3, 0.3]
+# goal-y-bounds: [0.3, 0.7]
+# goal-z-bounds: [0.01, 0.02]
+# gripped-start: false
+# hand-speed: 30
+# horizon: 250
+# random-hand-starts: true
+# wandb-project: 'metaworld_generation'
+# gripped-start: false
+# render: false
+# model-path: null
+# extra-reward-info: true
+# chai-rollouts: false
+# # algorithm: null

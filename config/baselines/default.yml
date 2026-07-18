@@ -1,0 +1,29 @@
+baselines: 'none'
+bc-epochs: 100
+adv-its: 100000
+num-envs: 16
+wandb-project: 'sri-baselines'
+
+# PEMIRL defaults (Point-Maze parity oriented).
+pemirl-latent-dim: 3
+pemirl-meta-batch-size: 50
+pemirl-task-batch-size: 16
+pemirl-discrim-updates: 20
+pemirl-pretrain-epochs: 1000
+pemirl-info-coeff: 0.1
+pemirl-imitation-coeff: 0.01
+pemirl-entropy-weight: 1.0
+pemirl-discount: 0.99
+pemirl-trpo-step-size: 0.01
+pemirl-fusion-buffer-size: 100
+pemirl-fusion-subsample-ratio: 0.5
+pemirl-policy-hidden-sizes: [64, 64]
+pemirl-context-hidden-sizes: [128, 128]
+pemirl-reward-hidden-size: 32
+pemirl-value-hidden-size: 32
+pemirl-meta-train-iters: 200
+pemirl-adapt-iters: 200
+pemirl-seed: 0
+pemirl-trpo-debug-nonfinite: false
+pemirl-trpo-reject-nonfinite-steps: true
+pemirl-meta-train-rollout-budget: -1

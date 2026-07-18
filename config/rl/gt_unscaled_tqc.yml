@@ -1,0 +1,2 @@
+defaults-config: 'gt_unscaled.yml'
+algorithm: 'TQC'

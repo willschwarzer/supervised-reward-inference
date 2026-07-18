@@ -1,0 +1,5 @@
+defaults-config: 'reach_baselines.yml'
+env: 'pick-place'
+mask-obj: false
+reinit-obj-pos: true
+# render: true

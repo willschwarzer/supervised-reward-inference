@@ -1,0 +1,44 @@
+lr: 0.0003
+save-model: true
+num-epochs: 2000
+batch-size: 16
+train-split: 0.8
+skip-reward-training: false
+permute-types: false
+env: 'reach'
+use-shuffled: false
+num-rings: 5 #
+n: 100
+rand-n: false
+batch-reward-computation: true
+scale-rewards: true
+include-actions: false
+synthesize-obs: false
+synth-prop: 0.5
+x-bounds: [-0.5, 0.5]
+y-bounds: [0.2, 0.9]
+z-bounds: [0.05, 0.5]
+only-synth-tcp: false
+synth-on-grid: true
+synth-grid-size: 10
+synth-edges-only: false
+synth-random-grip: false
+only-synthetic: false
+gt-hand-init-pos: true
+demonstration-type: 'normal'
+synth-frame-stacking: false
+minimal-synth: false
+minimal-only: false
+minimal-rand-pos: false
+shuffle: true
+extra-success-reward: 5.0 # maybe move to model config later
+dem-obs-share-goals: false
+num-obs: 1000
+clip-push-goals-z: true
+reward-label-dist: null
+proximity-reward: 0.0
+pessimism-factor: 0.0
+wandb-project: 'sri-n-experiments'
+grasp-rew-only: false
+start-prop-obs-1: 'auto'
+end-prop-obs-1: 'auto'

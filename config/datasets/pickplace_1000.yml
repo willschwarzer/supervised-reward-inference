@@ -1,0 +1,3 @@
+defaults-config: 'default_pickplace.yml'
+num-tasks-per-env: 10
+num-rollouts-per-task: 1000

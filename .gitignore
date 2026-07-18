@@ -1,0 +1,20 @@
+# Fetched by scripts/fetch_metaworld_assets.sh; only our modified files are tracked
+metaworld/envs/assets_v2/**
+!metaworld/envs/assets_v2/objects/
+!metaworld/envs/assets_v2/objects/assets/
+!metaworld/envs/assets_v2/objects/assets/xyz_base.xml
+!metaworld/envs/assets_v2/sawyer_xyz/
+!metaworld/envs/assets_v2/sawyer_xyz/sawyer_reach_v2.xml
+
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+runs/
+results/
+wandb/
+cache/
+scratch/
+*.out
+*.err
+.DS_Store

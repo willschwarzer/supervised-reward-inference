@@ -1,0 +1,2 @@
+defaults-config: 'random_hand_starts.yml'
+only-rl: true

@@ -1,0 +1,4 @@
+defaults-config: 'reach_avoid_obj.yml'
+render: true
+num-envs: 1
+num-rollouts-per-task: 1

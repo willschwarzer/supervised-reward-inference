@@ -1,0 +1,2 @@
+defaults-config: 'random_obs_selection_synth_4.yml'
+skip-reward-training: true

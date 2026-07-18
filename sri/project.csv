@@ -1,0 +1,702 @@
+,summary,config,name,events
+0,"{'succeded_at_end': {'bins': [0, 0.03125, 0.0625, 0.09375, 0.125, 0.15625, 0.1875, 0.21875, 0.25, 0.28125, 0.3125, 0.34375, 0.375, 0.40625, 0.4375, 0.46875, 0.5, 0.53125, 0.5625, 0.59375, 0.625, 0.65625, 0.6875, 0.71875, 0.75, 0.78125, 0.8125, 0.84375, 0.875, 0.90625, 0.9375, 0.96875, 1], 'values': [578, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 62], '_type': 'histogram'}, '_step': 27, 'succeded_at_any_point': {'bins': [0, 0.03125, 0.0625, 0.09375, 0.125, 0.15625, 0.1875, 0.21875, 0.25, 0.28125, 0.3125, 0.34375, 0.375, 0.40625, 0.4375, 0.46875, 0.5, 0.53125, 0.5625, 0.59375, 0.625, 0.65625, 0.6875, 0.71875, 0.75, 0.78125, 0.8125, 0.84375, 0.875, 0.90625, 0.9375, 0.96875, 1], 'values': [30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 610], '_type': 'histogram'}, 'average validation loss': 0.013607170060276985, '_wandb': {'runtime': 100}, '_runtime': 100.53026247024536, '_timestamp': 1706499088.6357565, 'train loss': 0.01239144429564476, 'average train loss': 0.037748656095936896}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'pick-place', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/pick-place-v2-goal-observable/rollouts/grateful-dream-24', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': False, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",proud-dragon-26,"                                succeded_at_any_point  ...  average train loss
+0                                                None  ...                 NaN
+1                                                None  ...                 NaN
+2                                                None  ...                 NaN
+3                                                None  ...                 NaN
+4                                                None  ...                 NaN
+5                                                None  ...                 NaN
+6                                                None  ...                 NaN
+7                                                None  ...                 NaN
+8                                                None  ...                 NaN
+9                                                None  ...                 NaN
+10                                               None  ...                 NaN
+11                                               None  ...                 NaN
+12                                               None  ...                 NaN
+13                                               None  ...                 NaN
+14                                               None  ...                 NaN
+15                                               None  ...                 NaN
+16                                               None  ...                 NaN
+17                                               None  ...                 NaN
+18                                               None  ...                 NaN
+19                                               None  ...                 NaN
+20                                               None  ...            0.037749
+21                                               None  ...                 NaN
+22                                               None  ...                 NaN
+23                                               None  ...                 NaN
+24                                               None  ...                 NaN
+25                                               None  ...                 NaN
+26                                               None  ...                 NaN
+27  {'values': [30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...  ...                 NaN
+
+[28 rows x 8 columns]"
+1,{'_wandb': {'runtime': 3}},"{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'pick-place', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/pick-place-v2-goal-observable/rollouts/bumbling-violet-23', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': False, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",firm-silence-25,"Empty DataFrame
+Columns: []
+Index: []"
+2,"{'_wandb': {'runtime': 129}, 'train loss': 0.011002141050994396, 'succeded_at_end': {'bins': [0, 0.03125, 0.0625, 0.09375, 0.125, 0.15625, 0.1875, 0.21875, 0.25, 0.28125, 0.3125, 0.34375, 0.375, 0.40625, 0.4375, 0.46875, 0.5, 0.53125, 0.5625, 0.59375, 0.625, 0.65625, 0.6875, 0.71875, 0.75, 0.78125, 0.8125, 0.84375, 0.875, 0.90625, 0.9375, 0.96875, 1], 'values': [582, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 58], '_type': 'histogram'}, 'average validation loss': 0.011069758981466293, '_step': 27, '_runtime': 129.76760959625244, 'average train loss': 0.028011103579774495, '_timestamp': 1706497934.1051576, 'succeded_at_any_point': {'_type': 'histogram', 'bins': [0, 0.03125, 0.0625, 0.09375, 0.125, 0.15625, 0.1875, 0.21875, 0.25, 0.28125, 0.3125, 0.34375, 0.375, 0.40625, 0.4375, 0.46875, 0.5, 0.53125, 0.5625, 0.59375, 0.625, 0.65625, 0.6875, 0.71875, 0.75, 0.78125, 0.8125, 0.84375, 0.875, 0.90625, 0.9375, 0.96875, 1], 'values': [60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 580]}}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",usual-meadow-24,"    _step  ...  average validation loss
+0       0  ...                      NaN
+1       1  ...                      NaN
+2       2  ...                      NaN
+3       3  ...                      NaN
+4       4  ...                      NaN
+5       5  ...                      NaN
+6       6  ...                      NaN
+7       7  ...                      NaN
+8       8  ...                      NaN
+9       9  ...                      NaN
+10     10  ...                      NaN
+11     11  ...                      NaN
+12     12  ...                      NaN
+13     13  ...                      NaN
+14     14  ...                      NaN
+15     15  ...                      NaN
+16     16  ...                      NaN
+17     17  ...                      NaN
+18     18  ...                      NaN
+19     19  ...                      NaN
+20     20  ...                      NaN
+21     21  ...                      NaN
+22     22  ...                      NaN
+23     23  ...                      NaN
+24     24  ...                      NaN
+25     25  ...                      NaN
+26     26  ...                  0.01107
+27     27  ...                      NaN
+
+[28 rows x 8 columns]"
+3,"{'average train loss': 0.0449916934594512, 'average validation loss': 0.014718075655400752, '_step': 26, '_wandb': {'runtime': 128}, '_runtime': 19.060085773468018, '_timestamp': 1706497625.4913695, 'train loss': 0.016186125576496124}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",electric-frog-23,"    average train loss  average validation loss  ...    _timestamp  train loss
+0                  NaN                      NaN  ...  1.706498e+09    0.221526
+1                  NaN                      NaN  ...  1.706498e+09    0.111361
+2                  NaN                      NaN  ...  1.706498e+09    0.040681
+3                  NaN                      NaN  ...  1.706498e+09    0.032042
+4                  NaN                      NaN  ...  1.706498e+09    0.062703
+5                  NaN                      NaN  ...  1.706498e+09    0.050821
+6                  NaN                      NaN  ...  1.706498e+09    0.033297
+7                  NaN                      NaN  ...  1.706498e+09    0.026872
+8                  NaN                      NaN  ...  1.706498e+09    0.029888
+9                  NaN                      NaN  ...  1.706498e+09    0.036607
+10                 NaN                      NaN  ...  1.706498e+09    0.038229
+11                 NaN                      NaN  ...  1.706498e+09    0.033043
+12                 NaN                      NaN  ...  1.706498e+09    0.027771
+13                 NaN                      NaN  ...  1.706498e+09    0.027044
+14                 NaN                      NaN  ...  1.706498e+09    0.019343
+15                 NaN                      NaN  ...  1.706498e+09    0.023093
+16                 NaN                      NaN  ...  1.706498e+09    0.023104
+17                 NaN                      NaN  ...  1.706498e+09    0.022843
+18                 NaN                      NaN  ...  1.706498e+09    0.022272
+19                 NaN                      NaN  ...  1.706498e+09    0.017294
+20            0.044992                      NaN  ...  1.706498e+09         NaN
+21                 NaN                      NaN  ...  1.706498e+09    0.014212
+22                 NaN                      NaN  ...  1.706498e+09    0.014094
+23                 NaN                      NaN  ...  1.706498e+09    0.014279
+24                 NaN                      NaN  ...  1.706498e+09    0.014819
+25                 NaN                      NaN  ...  1.706498e+09    0.016186
+26                 NaN                 0.014718  ...  1.706498e+09         NaN
+
+[27 rows x 6 columns]"
+4,"{'_step': 26, '_wandb': {'runtime': 32}, '_runtime': 19.97931957244873, '_timestamp': 1706497581.4643977, 'train loss': 0.018405014649033543, 'average train loss': 0.04950152561068535, 'average validation loss': 0.01960350014269352}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",playful-wave-22,"    average train loss  average validation loss  ...    _timestamp  train loss
+0                  NaN                      NaN  ...  1.706498e+09    0.272443
+1                  NaN                      NaN  ...  1.706498e+09    0.135941
+2                  NaN                      NaN  ...  1.706498e+09    0.062878
+3                  NaN                      NaN  ...  1.706498e+09    0.027864
+4                  NaN                      NaN  ...  1.706498e+09    0.040934
+5                  NaN                      NaN  ...  1.706498e+09    0.051931
+6                  NaN                      NaN  ...  1.706498e+09    0.044806
+7                  NaN                      NaN  ...  1.706498e+09    0.033444
+8                  NaN                      NaN  ...  1.706498e+09    0.027761
+9                  NaN                      NaN  ...  1.706498e+09    0.031753
+10                 NaN                      NaN  ...  1.706498e+09    0.030560
+11                 NaN                      NaN  ...  1.706498e+09    0.032317
+12                 NaN                      NaN  ...  1.706498e+09    0.032292
+13                 NaN                      NaN  ...  1.706498e+09    0.031419
+14                 NaN                      NaN  ...  1.706498e+09    0.025855
+15                 NaN                      NaN  ...  1.706498e+09    0.020172
+16                 NaN                      NaN  ...  1.706498e+09    0.022006
+17                 NaN                      NaN  ...  1.706498e+09    0.020445
+18                 NaN                      NaN  ...  1.706498e+09    0.021262
+19                 NaN                      NaN  ...  1.706498e+09    0.023949
+20            0.049502                      NaN  ...  1.706498e+09         NaN
+21                 NaN                      NaN  ...  1.706498e+09    0.018761
+22                 NaN                      NaN  ...  1.706498e+09    0.023774
+23                 NaN                      NaN  ...  1.706498e+09    0.019032
+24                 NaN                      NaN  ...  1.706498e+09    0.018046
+25                 NaN                      NaN  ...  1.706498e+09    0.018405
+26                 NaN                 0.019604  ...  1.706498e+09         NaN
+
+[27 rows x 6 columns]"
+5,"{'_wandb': {'runtime': 32}, '_runtime': 19.729252099990845, '_timestamp': 1706497177.072535, 'train loss': 0.009560313075780869, 'average train loss': 0.02802582858130336, 'average validation loss': 0.010391993820667267, '_step': 26}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",fragrant-pine-21,"    average validation loss  _step  ...  train loss  average train loss
+0                       NaN      0  ...    0.133539                 NaN
+1                       NaN      1  ...    0.048657                 NaN
+2                       NaN      2  ...    0.030878                 NaN
+3                       NaN      3  ...    0.037674                 NaN
+4                       NaN      4  ...    0.039401                 NaN
+5                       NaN      5  ...    0.033639                 NaN
+6                       NaN      6  ...    0.024531                 NaN
+7                       NaN      7  ...    0.023402                 NaN
+8                       NaN      8  ...    0.024530                 NaN
+9                       NaN      9  ...    0.025326                 NaN
+10                      NaN     10  ...    0.026769                 NaN
+11                      NaN     11  ...    0.022671                 NaN
+12                      NaN     12  ...    0.017211                 NaN
+13                      NaN     13  ...    0.013121                 NaN
+14                      NaN     14  ...    0.011385                 NaN
+15                      NaN     15  ...    0.009743                 NaN
+16                      NaN     16  ...    0.010034                 NaN
+17                      NaN     17  ...    0.009183                 NaN
+18                      NaN     18  ...    0.010009                 NaN
+19                      NaN     19  ...    0.008814                 NaN
+20                      NaN     20  ...         NaN            0.028026
+21                      NaN     21  ...    0.011403                 NaN
+22                      NaN     22  ...    0.010016                 NaN
+23                      NaN     23  ...    0.010388                 NaN
+24                      NaN     24  ...    0.010592                 NaN
+25                      NaN     25  ...    0.009560                 NaN
+26                 0.010392     26  ...         NaN                 NaN
+
+[27 rows x 6 columns]"
+6,"{'_wandb': {'runtime': 33}, '_runtime': 21.04127717018127, '_timestamp': 1706497109.1580331, 'train loss': 0.011779984459280968, 'average train loss': 0.033661588095128536, 'average validation loss': 0.011547579057514667, '_step': 26}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",swept-river-20,"    average validation loss  _step  ...  train loss  average train loss
+0                       NaN      0  ...    0.175945                 NaN
+1                       NaN      1  ...    0.087365                 NaN
+2                       NaN      2  ...    0.031546                 NaN
+3                       NaN      3  ...    0.032569                 NaN
+4                       NaN      4  ...    0.047439                 NaN
+5                       NaN      5  ...    0.041873                 NaN
+6                       NaN      6  ...    0.030548                 NaN
+7                       NaN      7  ...    0.023228                 NaN
+8                       NaN      8  ...    0.022346                 NaN
+9                       NaN      9  ...    0.028544                 NaN
+10                      NaN     10  ...    0.026039                 NaN
+11                      NaN     11  ...    0.030470                 NaN
+12                      NaN     12  ...    0.020900                 NaN
+13                      NaN     13  ...    0.014543                 NaN
+14                      NaN     14  ...    0.012958                 NaN
+15                      NaN     15  ...    0.009148                 NaN
+16                      NaN     16  ...    0.008408                 NaN
+17                      NaN     17  ...    0.008194                 NaN
+18                      NaN     18  ...    0.009225                 NaN
+19                      NaN     19  ...    0.011945                 NaN
+20                      NaN     20  ...         NaN            0.033662
+21                      NaN     21  ...    0.009666                 NaN
+22                      NaN     22  ...    0.010950                 NaN
+23                      NaN     23  ...    0.012447                 NaN
+24                      NaN     24  ...    0.012895                 NaN
+25                      NaN     25  ...    0.011780                 NaN
+26                 0.011548     26  ...         NaN                 NaN
+
+[27 rows x 6 columns]"
+7,"{'average train loss': 0.03959963140077889, 'average validation loss': 0.012949681840837002, '_step': 26, '_wandb': {'runtime': 31}, '_runtime': 19.309391021728516, '_timestamp': 1706497011.730231, 'train loss': 0.012739102356135843}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",restful-voice-19,"    train loss  average train loss  ...   _runtime    _timestamp
+0     0.213701                 NaN  ...   9.858909  1.706497e+09
+1     0.120945                 NaN  ...  10.244310  1.706497e+09
+2     0.060157                 NaN  ...  10.624990  1.706497e+09
+3     0.030952                 NaN  ...  10.997884  1.706497e+09
+4     0.038442                 NaN  ...  11.368378  1.706497e+09
+5     0.052434                 NaN  ...  11.742495  1.706497e+09
+6     0.043416                 NaN  ...  12.118848  1.706497e+09
+7     0.026666                 NaN  ...  12.500928  1.706497e+09
+8     0.023944                 NaN  ...  12.870980  1.706497e+09
+9     0.023389                 NaN  ...  13.332382  1.706497e+09
+10    0.025700                 NaN  ...  13.719850  1.706497e+09
+11    0.027510                 NaN  ...  14.130570  1.706497e+09
+12    0.021840                 NaN  ...  14.668204  1.706497e+09
+13    0.017026                 NaN  ...  15.122895  1.706497e+09
+14    0.013663                 NaN  ...  15.580202  1.706497e+09
+15    0.009791                 NaN  ...  16.041597  1.706497e+09
+16    0.008427                 NaN  ...  16.627084  1.706497e+09
+17    0.009692                 NaN  ...  17.093589  1.706497e+09
+18    0.011277                 NaN  ...  17.547516  1.706497e+09
+19    0.013022                 NaN  ...  18.003460  1.706497e+09
+20         NaN              0.0396  ...  18.302047  1.706497e+09
+21    0.014948                 NaN  ...  18.563636  1.706497e+09
+22    0.013243                 NaN  ...  18.668773  1.706497e+09
+23    0.011309                 NaN  ...  18.849111  1.706497e+09
+24    0.012509                 NaN  ...  19.038802  1.706497e+09
+25    0.012739                 NaN  ...  19.232302  1.706497e+09
+26         NaN                 NaN  ...  19.309391  1.706497e+09
+
+[27 rows x 6 columns]"
+8,"{'average validation loss': 0.009768706746399404, '_step': 26, '_wandb': {'runtime': 32}, '_runtime': 19.92458200454712, '_timestamp': 1706496965.286179, 'train loss': 0.009911976754665376, 'average train loss': 0.027458411222323776}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",worldly-lion-18,"    average train loss  average validation loss  ...    _timestamp  train loss
+0                  NaN                      NaN  ...  1.706497e+09    0.115443
+1                  NaN                      NaN  ...  1.706497e+09    0.059540
+2                  NaN                      NaN  ...  1.706497e+09    0.034776
+3                  NaN                      NaN  ...  1.706497e+09    0.033754
+4                  NaN                      NaN  ...  1.706497e+09    0.047034
+5                  NaN                      NaN  ...  1.706497e+09    0.033116
+6                  NaN                      NaN  ...  1.706497e+09    0.021339
+7                  NaN                      NaN  ...  1.706497e+09    0.026491
+8                  NaN                      NaN  ...  1.706497e+09    0.022820
+9                  NaN                      NaN  ...  1.706497e+09    0.019316
+10                 NaN                      NaN  ...  1.706497e+09    0.022318
+11                 NaN                      NaN  ...  1.706497e+09    0.020645
+12                 NaN                      NaN  ...  1.706497e+09    0.017581
+13                 NaN                      NaN  ...  1.706497e+09    0.013742
+14                 NaN                      NaN  ...  1.706497e+09    0.009352
+15                 NaN                      NaN  ...  1.706497e+09    0.008952
+16                 NaN                      NaN  ...  1.706497e+09    0.008121
+17                 NaN                      NaN  ...  1.706497e+09    0.009483
+18                 NaN                      NaN  ...  1.706497e+09    0.013040
+19                 NaN                      NaN  ...  1.706497e+09    0.012306
+20            0.027458                      NaN  ...  1.706497e+09         NaN
+21                 NaN                      NaN  ...  1.706497e+09    0.010082
+22                 NaN                      NaN  ...  1.706497e+09    0.010418
+23                 NaN                      NaN  ...  1.706497e+09    0.009433
+24                 NaN                      NaN  ...  1.706497e+09    0.008999
+25                 NaN                      NaN  ...  1.706497e+09    0.009912
+26                 NaN                 0.009769  ...  1.706497e+09         NaN
+
+[27 rows x 6 columns]"
+9,"{'_step': 26, '_wandb': {'runtime': 32}, '_runtime': 19.89609169960022, '_timestamp': 1706496863.7698658, 'train loss': 0.009679120033979416, 'average train loss': 0.02706048502586782, 'average validation loss': 0.009333480149507524}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",sandy-puddle-17,"      _timestamp  train loss  ...  _step   _runtime
+0   1.706497e+09    0.109169  ...      0  10.487831
+1   1.706497e+09    0.042826  ...      1  10.887097
+2   1.706497e+09    0.037658  ...      2  11.257492
+3   1.706497e+09    0.046465  ...      3  11.628528
+4   1.706497e+09    0.033701  ...      4  12.001652
+5   1.706497e+09    0.032023  ...      5  12.380359
+6   1.706497e+09    0.028351  ...      6  12.751064
+7   1.706497e+09    0.025270  ...      7  13.125655
+8   1.706497e+09    0.024109  ...      8  13.496178
+9   1.706497e+09    0.023191  ...      9  13.895124
+10  1.706497e+09    0.024836  ...     10  14.373222
+11  1.706497e+09    0.016814  ...     11  14.780011
+12  1.706497e+09    0.016685  ...     12  15.205473
+13  1.706497e+09    0.013438  ...     13  15.654449
+14  1.706497e+09    0.013467  ...     14  16.107692
+15  1.706497e+09    0.011484  ...     15  16.571038
+16  1.706497e+09    0.011290  ...     16  17.060543
+17  1.706497e+09    0.012122  ...     17  17.544049
+18  1.706497e+09    0.009835  ...     18  17.999848
+19  1.706497e+09    0.008474  ...     19  18.472435
+20  1.706497e+09         NaN  ...     20  18.776299
+21  1.706497e+09    0.008522  ...     21  19.034742
+22  1.706497e+09    0.009429  ...     22  19.217712
+23  1.706497e+09    0.009265  ...     23  19.457791
+24  1.706497e+09    0.009772  ...     24  19.637466
+25  1.706497e+09    0.009679  ...     25  19.819020
+26  1.706497e+09         NaN  ...     26  19.896092
+
+[27 rows x 6 columns]"
+10,"{'_timestamp': 1706496794.7767737, 'train loss': 0.008736815303564072, 'average train loss': 0.02622112005483359, 'average validation loss': 0.007736398838460445, '_step': 26, '_wandb': {'runtime': 32}, '_runtime': 19.44272756576538}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",fine-flower-16,"    average train loss  average validation loss  ...    _timestamp  train loss
+0                  NaN                      NaN  ...  1.706497e+09    0.138764
+1                  NaN                      NaN  ...  1.706497e+09    0.055193
+2                  NaN                      NaN  ...  1.706497e+09    0.027230
+3                  NaN                      NaN  ...  1.706497e+09    0.040902
+4                  NaN                      NaN  ...  1.706497e+09    0.038317
+5                  NaN                      NaN  ...  1.706497e+09    0.028717
+6                  NaN                      NaN  ...  1.706497e+09    0.024768
+7                  NaN                      NaN  ...  1.706497e+09    0.023277
+8                  NaN                      NaN  ...  1.706497e+09    0.023750
+9                  NaN                      NaN  ...  1.706497e+09    0.021089
+10                 NaN                      NaN  ...  1.706497e+09    0.016279
+11                 NaN                      NaN  ...  1.706497e+09    0.011105
+12                 NaN                      NaN  ...  1.706497e+09    0.009805
+13                 NaN                      NaN  ...  1.706497e+09    0.007426
+14                 NaN                      NaN  ...  1.706497e+09    0.008588
+15                 NaN                      NaN  ...  1.706497e+09    0.010578
+16                 NaN                      NaN  ...  1.706497e+09    0.011377
+17                 NaN                      NaN  ...  1.706497e+09    0.010952
+18                 NaN                      NaN  ...  1.706497e+09    0.007796
+19                 NaN                      NaN  ...  1.706497e+09    0.008510
+20            0.026221                      NaN  ...  1.706497e+09         NaN
+21                 NaN                      NaN  ...  1.706497e+09    0.007528
+22                 NaN                      NaN  ...  1.706497e+09    0.007353
+23                 NaN                      NaN  ...  1.706497e+09    0.007106
+24                 NaN                      NaN  ...  1.706497e+09    0.007958
+25                 NaN                      NaN  ...  1.706497e+09    0.008737
+26                 NaN                 0.007736  ...  1.706497e+09         NaN
+
+[27 rows x 6 columns]"
+11,"{'_step': 26, '_wandb': {'runtime': 31}, '_runtime': 19.1996386051178, '_timestamp': 1706496742.9731686, 'train loss': 0.007460731081664562, 'average train loss': 0.029542470537126064, 'average validation loss': 0.006723510101437569}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",curious-frost-15,"     _runtime    _timestamp  ...  average validation loss  _step
+0   10.576662  1.706497e+09  ...                      NaN      0
+1   10.966963  1.706497e+09  ...                      NaN      1
+2   11.337995  1.706497e+09  ...                      NaN      2
+3   11.712593  1.706497e+09  ...                      NaN      3
+4   12.083714  1.706497e+09  ...                      NaN      4
+5   12.463894  1.706497e+09  ...                      NaN      5
+6   12.834711  1.706497e+09  ...                      NaN      6
+7   13.204630  1.706497e+09  ...                      NaN      7
+8   13.584798  1.706497e+09  ...                      NaN      8
+9   13.955598  1.706497e+09  ...                      NaN      9
+10  14.335667  1.706497e+09  ...                      NaN     10
+11  14.706758  1.706497e+09  ...                      NaN     11
+12  15.078079  1.706497e+09  ...                      NaN     12
+13  15.448558  1.706497e+09  ...                      NaN     13
+14  15.819269  1.706497e+09  ...                      NaN     14
+15  16.189908  1.706497e+09  ...                      NaN     15
+16  16.576349  1.706497e+09  ...                      NaN     16
+17  17.282057  1.706497e+09  ...                      NaN     17
+18  17.667538  1.706497e+09  ...                      NaN     18
+19  18.038499  1.706497e+09  ...                      NaN     19
+20  18.337813  1.706497e+09  ...                      NaN     20
+21  18.521801  1.706497e+09  ...                      NaN     21
+22  18.614102  1.706497e+09  ...                      NaN     22
+23  18.792026  1.706497e+09  ...                      NaN     23
+24  18.957195  1.706497e+09  ...                      NaN     24
+25  19.122404  1.706497e+09  ...                      NaN     25
+26  19.199639  1.706497e+09  ...                 0.006724     26
+
+[27 rows x 6 columns]"
+12,"{'_wandb': {'runtime': 33}, '_runtime': 20.87190580368042, '_timestamp': 1706496556.078956, 'train loss': 0.011083956807851791, 'average train loss': 0.03264776887372136, 'average validation loss': 0.010386086069047453, '_step': 26}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",sparkling-puddle-14,"    average validation loss  _step  ...  train loss  average train loss
+0                       NaN      0  ...    0.130751                 NaN
+1                       NaN      1  ...    0.066443                 NaN
+2                       NaN      2  ...    0.028183                 NaN
+3                       NaN      3  ...    0.041680                 NaN
+4                       NaN      4  ...    0.047333                 NaN
+5                       NaN      5  ...    0.031396                 NaN
+6                       NaN      6  ...    0.031918                 NaN
+7                       NaN      7  ...    0.035610                 NaN
+8                       NaN      8  ...    0.026287                 NaN
+9                       NaN      9  ...    0.022587                 NaN
+10                      NaN     10  ...    0.029488                 NaN
+11                      NaN     11  ...    0.028819                 NaN
+12                      NaN     12  ...    0.025340                 NaN
+13                      NaN     13  ...    0.022305                 NaN
+14                      NaN     14  ...    0.017342                 NaN
+15                      NaN     15  ...    0.016249                 NaN
+16                      NaN     16  ...    0.016052                 NaN
+17                      NaN     17  ...    0.014179                 NaN
+18                      NaN     18  ...    0.011006                 NaN
+19                      NaN     19  ...    0.009988                 NaN
+20                      NaN     20  ...         NaN            0.032648
+21                      NaN     21  ...    0.011354                 NaN
+22                      NaN     22  ...    0.009421                 NaN
+23                      NaN     23  ...    0.010743                 NaN
+24                      NaN     24  ...    0.009329                 NaN
+25                      NaN     25  ...    0.011084                 NaN
+26                 0.010386     26  ...         NaN                 NaN
+
+[27 rows x 6 columns]"
+13,"{'_timestamp': 1706496454.1650672, 'train loss': 0.00864823441952467, 'average train loss': 0.028875301103107633, 'average validation loss': 0.008772358857095241, '_step': 26, '_wandb': {'runtime': 32}, '_runtime': 20.302566289901733}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",vivid-valley-13,"    average validation loss  _step  ...  train loss  average train loss
+0                       NaN      0  ...    0.153710                 NaN
+1                       NaN      1  ...    0.063780                 NaN
+2                       NaN      2  ...    0.035940                 NaN
+3                       NaN      3  ...    0.028851                 NaN
+4                       NaN      4  ...    0.042042                 NaN
+5                       NaN      5  ...    0.043200                 NaN
+6                       NaN      6  ...    0.027084                 NaN
+7                       NaN      7  ...    0.020392                 NaN
+8                       NaN      8  ...    0.017204                 NaN
+9                       NaN      9  ...    0.021782                 NaN
+10                      NaN     10  ...    0.021123                 NaN
+11                      NaN     11  ...    0.018397                 NaN
+12                      NaN     12  ...    0.014772                 NaN
+13                      NaN     13  ...    0.011651                 NaN
+14                      NaN     14  ...    0.009528                 NaN
+15                      NaN     15  ...    0.006374                 NaN
+16                      NaN     16  ...    0.008181                 NaN
+17                      NaN     17  ...    0.011534                 NaN
+18                      NaN     18  ...    0.011629                 NaN
+19                      NaN     19  ...    0.010331                 NaN
+20                      NaN     20  ...         NaN            0.028875
+21                      NaN     21  ...    0.008742                 NaN
+22                      NaN     22  ...    0.008539                 NaN
+23                      NaN     23  ...    0.008326                 NaN
+24                      NaN     24  ...    0.009606                 NaN
+25                      NaN     25  ...    0.008648                 NaN
+26                 0.008772     26  ...         NaN                 NaN
+
+[27 rows x 6 columns]"
+14,"{'train loss': 0.012138101272284985, 'average train loss': 0.028555597877129912, 'average validation loss': 0.010420569218695164, '_step': 26, '_wandb': {'runtime': 31}, '_runtime': 19.119170427322388, '_timestamp': 1706496351.4968903}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",golden-disco-12,"    _step   _runtime  ...  average train loss  average validation loss
+0       0  10.792215  ...                 NaN                      NaN
+1       1  11.195287  ...                 NaN                      NaN
+2       2  11.561390  ...                 NaN                      NaN
+3       3  11.934552  ...                 NaN                      NaN
+4       4  12.307883  ...                 NaN                      NaN
+5       5  12.684721  ...                 NaN                      NaN
+6       6  13.055414  ...                 NaN                      NaN
+7       7  13.426046  ...                 NaN                      NaN
+8       8  13.798090  ...                 NaN                      NaN
+9       9  14.168935  ...                 NaN                      NaN
+10     10  14.546115  ...                 NaN                      NaN
+11     11  14.915945  ...                 NaN                      NaN
+12     12  15.284119  ...                 NaN                      NaN
+13     13  15.688769  ...                 NaN                      NaN
+14     14  16.059464  ...                 NaN                      NaN
+15     15  16.454120  ...                 NaN                      NaN
+16     16  16.824079  ...                 NaN                      NaN
+17     17  17.196829  ...                 NaN                      NaN
+18     18  17.566371  ...                 NaN                      NaN
+19     19  17.932819  ...                 NaN                      NaN
+20     20  18.238077  ...            0.028556                      NaN
+21     21  18.429489  ...                 NaN                      NaN
+22     22  18.526807  ...                 NaN                      NaN
+23     23  18.710030  ...                 NaN                      NaN
+24     24  18.878832  ...                 NaN                      NaN
+25     25  19.042037  ...                 NaN                      NaN
+26     26  19.119170  ...                 NaN                 0.010421
+
+[27 rows x 6 columns]"
+15,"{'_timestamp': 1706496266.5995216, 'train loss': 0.008668127469718456, 'average train loss': 0.026413747947663067, 'average validation loss': 0.008915964141488075, '_step': 26, '_wandb': {'runtime': 31}, '_runtime': 19.01110863685608}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",swept-eon-11,"    average validation loss  _step  ...  train loss  average train loss
+0                       NaN      0  ...    0.113889                 NaN
+1                       NaN      1  ...    0.052050                 NaN
+2                       NaN      2  ...    0.026144                 NaN
+3                       NaN      3  ...    0.036098                 NaN
+4                       NaN      4  ...    0.039238                 NaN
+5                       NaN      5  ...    0.030858                 NaN
+6                       NaN      6  ...    0.025948                 NaN
+7                       NaN      7  ...    0.024685                 NaN
+8                       NaN      8  ...    0.025269                 NaN
+9                       NaN      9  ...    0.024366                 NaN
+10                      NaN     10  ...    0.024814                 NaN
+11                      NaN     11  ...    0.019728                 NaN
+12                      NaN     12  ...    0.015072                 NaN
+13                      NaN     13  ...    0.010509                 NaN
+14                      NaN     14  ...    0.009602                 NaN
+15                      NaN     15  ...    0.008028                 NaN
+16                      NaN     16  ...    0.009842                 NaN
+17                      NaN     17  ...    0.010068                 NaN
+18                      NaN     18  ...    0.011237                 NaN
+19                      NaN     19  ...    0.010832                 NaN
+20                      NaN     20  ...         NaN            0.026414
+21                      NaN     21  ...    0.008789                 NaN
+22                      NaN     22  ...    0.009240                 NaN
+23                      NaN     23  ...    0.008573                 NaN
+24                      NaN     24  ...    0.009311                 NaN
+25                      NaN     25  ...    0.008668                 NaN
+26                 0.008916     26  ...         NaN                 NaN
+
+[27 rows x 6 columns]"
+16,"{'_step': 26, '_wandb': {'runtime': 30}, '_runtime': 18.324753761291504, '_timestamp': 1706496178.8246698, 'train loss': 0.00906041543930769, 'average train loss': 0.04030743888579309, 'average validation loss': 0.008964322321116925}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'record_grips': False, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",rare-elevator-10,"    average train loss  average validation loss  ...    _timestamp  train loss
+0                  NaN                      NaN  ...  1.706496e+09    0.209438
+1                  NaN                      NaN  ...  1.706496e+09    0.088002
+2                  NaN                      NaN  ...  1.706496e+09    0.038372
+3                  NaN                      NaN  ...  1.706496e+09    0.033651
+4                  NaN                      NaN  ...  1.706496e+09    0.061556
+5                  NaN                      NaN  ...  1.706496e+09    0.055861
+6                  NaN                      NaN  ...  1.706496e+09    0.036467
+7                  NaN                      NaN  ...  1.706496e+09    0.026610
+8                  NaN                      NaN  ...  1.706496e+09    0.028291
+9                  NaN                      NaN  ...  1.706496e+09    0.029812
+10                 NaN                      NaN  ...  1.706496e+09    0.031906
+11                 NaN                      NaN  ...  1.706496e+09    0.024867
+12                 NaN                      NaN  ...  1.706496e+09    0.026527
+13                 NaN                      NaN  ...  1.706496e+09    0.022445
+14                 NaN                      NaN  ...  1.706496e+09    0.020522
+15                 NaN                      NaN  ...  1.706496e+09    0.014873
+16                 NaN                      NaN  ...  1.706496e+09    0.018005
+17                 NaN                      NaN  ...  1.706496e+09    0.013217
+18                 NaN                      NaN  ...  1.706496e+09    0.013719
+19                 NaN                      NaN  ...  1.706496e+09    0.012008
+20            0.040307                      NaN  ...  1.706496e+09         NaN
+21                 NaN                      NaN  ...  1.706496e+09    0.009701
+22                 NaN                      NaN  ...  1.706496e+09    0.009308
+23                 NaN                      NaN  ...  1.706496e+09    0.008090
+24                 NaN                      NaN  ...  1.706496e+09    0.008662
+25                 NaN                      NaN  ...  1.706496e+09    0.009060
+26                 NaN                 0.008964  ...  1.706496e+09         NaN
+
+[27 rows x 6 columns]"
+17,"{'average validation loss': 0.00904645659029484, '_step': 26, '_wandb': {'runtime': 28}, '_runtime': 19.161601305007935, '_timestamp': 1706496135.7136683, 'train loss': 0.009287014603614809, 'average train loss': 0.030822805990464983}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'reinit_goals': False, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",hearty-glade-9,"     _runtime    _timestamp  ...  average validation loss  _step
+0   10.745260  1.706496e+09  ...                      NaN      0
+1   11.149080  1.706496e+09  ...                      NaN      1
+2   11.520195  1.706496e+09  ...                      NaN      2
+3   11.892495  1.706496e+09  ...                      NaN      3
+4   12.265558  1.706496e+09  ...                      NaN      4
+5   12.636045  1.706496e+09  ...                      NaN      5
+6   13.011187  1.706496e+09  ...                      NaN      6
+7   13.392763  1.706496e+09  ...                      NaN      7
+8   13.763038  1.706496e+09  ...                      NaN      8
+9   14.186008  1.706496e+09  ...                      NaN      9
+10  14.561579  1.706496e+09  ...                      NaN     10
+11  14.932297  1.706496e+09  ...                      NaN     11
+12  15.310617  1.706496e+09  ...                      NaN     12
+13  15.703295  1.706496e+09  ...                      NaN     13
+14  16.075375  1.706496e+09  ...                      NaN     14
+15  16.457779  1.706496e+09  ...                      NaN     15
+16  16.834470  1.706496e+09  ...                      NaN     16
+17  17.208799  1.706496e+09  ...                      NaN     17
+18  17.588812  1.706496e+09  ...                      NaN     18
+19  17.962878  1.706496e+09  ...                      NaN     19
+20  18.269772  1.706496e+09  ...                      NaN     20
+21  18.466863  1.706496e+09  ...                      NaN     21
+22  18.562120  1.706496e+09  ...                      NaN     22
+23  18.731828  1.706496e+09  ...                      NaN     23
+24  18.914525  1.706496e+09  ...                      NaN     24
+25  19.084713  1.706496e+09  ...                      NaN     25
+26  19.161601  1.706496e+09  ...                 0.009046     26
+
+[27 rows x 6 columns]"
+18,"{'_wandb': {'runtime': 31}, '_runtime': 20.101635932922363, '_timestamp': 1706496017.349421, 'train loss': 0.010589811019599438, 'average train loss': 0.038137842807918786, 'average validation loss': 0.010452125780284404, '_step': 26}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'gripped_start': False, 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",dulcet-fog-8,"    average validation loss  _step  ...  train loss  average train loss
+0                       NaN      0  ...    0.234385                 NaN
+1                       NaN      1  ...    0.104836                 NaN
+2                       NaN      2  ...    0.047847                 NaN
+3                       NaN      3  ...    0.032457                 NaN
+4                       NaN      4  ...    0.052827                 NaN
+5                       NaN      5  ...    0.048499                 NaN
+6                       NaN      6  ...    0.028370                 NaN
+7                       NaN      7  ...    0.028737                 NaN
+8                       NaN      8  ...    0.022207                 NaN
+9                       NaN      9  ...    0.024809                 NaN
+10                      NaN     10  ...    0.023459                 NaN
+11                      NaN     11  ...    0.022849                 NaN
+12                      NaN     12  ...    0.015953                 NaN
+13                      NaN     13  ...    0.013866                 NaN
+14                      NaN     14  ...    0.011083                 NaN
+15                      NaN     15  ...    0.008269                 NaN
+16                      NaN     16  ...    0.008233                 NaN
+17                      NaN     17  ...    0.010715                 NaN
+18                      NaN     18  ...    0.011976                 NaN
+19                      NaN     19  ...    0.011380                 NaN
+20                      NaN     20  ...         NaN            0.038138
+21                      NaN     21  ...    0.009624                 NaN
+22                      NaN     22  ...    0.010930                 NaN
+23                      NaN     23  ...    0.010814                 NaN
+24                      NaN     24  ...    0.010303                 NaN
+25                      NaN     25  ...    0.010590                 NaN
+26                 0.010452     26  ...         NaN                 NaN
+
+[27 rows x 6 columns]"
+19,"{'_wandb': {'runtime': 31}, '_runtime': 20.690284252166748, '_timestamp': 1706495954.4612925, 'train loss': 0.006631113588809967, 'average train loss': 0.02310008239001036, 'average validation loss': 0.007129829283803702, '_step': 26}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'goal_x_bounds': [-0.4, 0.4], 'goal_y_bounds': [0.4, 0.8], 'goal_z_bounds': [0.05, 0.3], 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",youthful-thunder-7,"    train loss  average train loss  ...   _runtime    _timestamp
+0     0.081798                 NaN  ...  10.835633  1.706496e+09
+1     0.029008                 NaN  ...  11.239408  1.706496e+09
+2     0.051928                 NaN  ...  11.609642  1.706496e+09
+3     0.034266                 NaN  ...  11.981851  1.706496e+09
+4     0.026796                 NaN  ...  12.354695  1.706496e+09
+5     0.025850                 NaN  ...  12.735418  1.706496e+09
+6     0.028956                 NaN  ...  13.106158  1.706496e+09
+7     0.029019                 NaN  ...  13.484747  1.706496e+09
+8     0.024157                 NaN  ...  13.857318  1.706496e+09
+9     0.022982                 NaN  ...  14.595070  1.706496e+09
+10    0.018465                 NaN  ...  14.965433  1.706496e+09
+11    0.015347                 NaN  ...  15.340744  1.706496e+09
+12    0.011827                 NaN  ...  15.869352  1.706496e+09
+13    0.010757                 NaN  ...  16.253560  1.706496e+09
+14    0.008621                 NaN  ...  16.625191  1.706496e+09
+15    0.008547                 NaN  ...  16.998510  1.706496e+09
+16    0.008965                 NaN  ...  17.378670  1.706496e+09
+17    0.008374                 NaN  ...  17.787168  1.706496e+09
+18    0.008060                 NaN  ...  18.218570  1.706496e+09
+19    0.008278                 NaN  ...  18.675109  1.706496e+09
+20         NaN              0.0231  ...  18.977870  1.706496e+09
+21    0.007620                 NaN  ...  19.237689  1.706496e+09
+22    0.007747                 NaN  ...  19.409991  1.706496e+09
+23    0.006878                 NaN  ...  19.816734  1.706496e+09
+24    0.006774                 NaN  ...  20.127675  1.706496e+09
+25    0.006631                 NaN  ...  20.612672  1.706496e+09
+26         NaN                 NaN  ...  20.690284  1.706496e+09
+
+[27 rows x 6 columns]"
+20,"{'average train loss': 0.043795614829286934, 'average validation loss': 0.009822649694979192, '_step': 26, '_wandb': {'runtime': 18}, '_runtime': 18.80238151550293, '_timestamp': 1706495812.5006835, 'train loss': 0.010124596767127514}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'inference_env': 'pick-place-v2-goal-observable', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",bumbling-haze-6,"     _runtime    _timestamp  ...  average validation loss  _step
+0   10.482928  1.706496e+09  ...                      NaN      0
+1   10.908843  1.706496e+09  ...                      NaN      1
+2   11.279022  1.706496e+09  ...                      NaN      2
+3   11.651066  1.706496e+09  ...                      NaN      3
+4   12.026444  1.706496e+09  ...                      NaN      4
+5   12.401246  1.706496e+09  ...                      NaN      5
+6   12.784598  1.706496e+09  ...                      NaN      6
+7   13.155520  1.706496e+09  ...                      NaN      7
+8   13.525546  1.706496e+09  ...                      NaN      8
+9   13.896241  1.706496e+09  ...                      NaN      9
+10  14.269397  1.706496e+09  ...                      NaN     10
+11  14.644814  1.706496e+09  ...                      NaN     11
+12  15.021129  1.706496e+09  ...                      NaN     12
+13  15.395044  1.706496e+09  ...                      NaN     13
+14  15.766597  1.706496e+09  ...                      NaN     14
+15  16.137738  1.706496e+09  ...                      NaN     15
+16  16.514943  1.706496e+09  ...                      NaN     16
+17  16.884697  1.706496e+09  ...                      NaN     17
+18  17.254887  1.706496e+09  ...                      NaN     18
+19  17.643543  1.706496e+09  ...                      NaN     19
+20  17.943030  1.706496e+09  ...                      NaN     20
+21  18.119277  1.706496e+09  ...                      NaN     21
+22  18.222995  1.706496e+09  ...                      NaN     22
+23  18.392952  1.706496e+09  ...                      NaN     23
+24  18.558579  1.706496e+09  ...                      NaN     24
+25  18.725289  1.706496e+09  ...                      NaN     25
+26  18.802382  1.706496e+09  ...                 0.009823     26
+
+[27 rows x 6 columns]"
+21,"{'_runtime': 20.28007674217224, '_timestamp': 1706495596.7018816, 'train loss': 0.010037951171398165, 'average train loss': 0.028097774693742396, 'average validation loss': 0.009664810076355937, '_step': 26, '_wandb': {'runtime': 20}}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'inference_env': 'pick-place', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",warm-paper-5,"    average validation loss  _step  ...  train loss  average train loss
+0                       NaN      0  ...    0.123740                 NaN
+1                       NaN      1  ...    0.042731                 NaN
+2                       NaN      2  ...    0.036073                 NaN
+3                       NaN      3  ...    0.043784                 NaN
+4                       NaN      4  ...    0.038919                 NaN
+5                       NaN      5  ...    0.028269                 NaN
+6                       NaN      6  ...    0.018507                 NaN
+7                       NaN      7  ...    0.024551                 NaN
+8                       NaN      8  ...    0.025288                 NaN
+9                       NaN      9  ...    0.032477                 NaN
+10                      NaN     10  ...    0.027346                 NaN
+11                      NaN     11  ...    0.021762                 NaN
+12                      NaN     12  ...    0.015852                 NaN
+13                      NaN     13  ...    0.009987                 NaN
+14                      NaN     14  ...    0.009858                 NaN
+15                      NaN     15  ...    0.010092                 NaN
+16                      NaN     16  ...    0.012552                 NaN
+17                      NaN     17  ...    0.015228                 NaN
+18                      NaN     18  ...    0.014869                 NaN
+19                      NaN     19  ...    0.010070                 NaN
+20                      NaN     20  ...         NaN            0.028098
+21                      NaN     21  ...    0.008822                 NaN
+22                      NaN     22  ...    0.010554                 NaN
+23                      NaN     23  ...    0.008805                 NaN
+24                      NaN     24  ...    0.010105                 NaN
+25                      NaN     25  ...    0.010038                 NaN
+26                 0.009665     26  ...         NaN                 NaN
+
+[27 rows x 6 columns]"
+22,"{'_runtime': 19.675652265548703, '_timestamp': 1706495443.2425413, 'train loss': 0.013391172513365746, 'average train loss': 0.027153512462973595, 'average validation loss': 0.011535715870559215, '_step': 26, '_wandb': {'runtime': 19}}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'use_shuffled': False, 'data_location': 'envs/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'inference_env': 'pick-place', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",glamorous-shadow-4,"    average validation loss  _step  ...  train loss  average train loss
+0                       NaN      0  ...    0.111592                 NaN
+1                       NaN      1  ...    0.041875                 NaN
+2                       NaN      2  ...    0.029118                 NaN
+3                       NaN      3  ...    0.039809                 NaN
+4                       NaN      4  ...    0.033178                 NaN
+5                       NaN      5  ...    0.029812                 NaN
+6                       NaN      6  ...    0.023273                 NaN
+7                       NaN      7  ...    0.025618                 NaN
+8                       NaN      8  ...    0.027727                 NaN
+9                       NaN      9  ...    0.027501                 NaN
+10                      NaN     10  ...    0.025685                 NaN
+11                      NaN     11  ...    0.020853                 NaN
+12                      NaN     12  ...    0.016745                 NaN
+13                      NaN     13  ...    0.015921                 NaN
+14                      NaN     14  ...    0.015744                 NaN
+15                      NaN     15  ...    0.013599                 NaN
+16                      NaN     16  ...    0.011566                 NaN
+17                      NaN     17  ...    0.009713                 NaN
+18                      NaN     18  ...    0.012429                 NaN
+19                      NaN     19  ...    0.011310                 NaN
+20                      NaN     20  ...         NaN            0.027154
+21                      NaN     21  ...    0.011360                 NaN
+22                      NaN     22  ...    0.010572                 NaN
+23                      NaN     23  ...    0.010252                 NaN
+24                      NaN     24  ...    0.012103                 NaN
+25                      NaN     25  ...    0.013391                 NaN
+26                 0.011536     26  ...         NaN                 NaN
+
+[27 rows x 6 columns]"
+23,{'_wandb': {'runtime': 4}},"{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'use_shuffled': False, 'data_location': '../metaworld/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'inference_env': 'pick-place', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",eager-pond-3,"Empty DataFrame
+Columns: []
+Index: []"
+24,"{'_wandb': {'runtime': 32}, '_runtime': 31.709702730178833, '_timestamp': 1706491215.1616848, 'train loss': 0.008791602216660976, 'average train loss': 0.02966775931417942, 'average validation loss': 0.009622001834213734, '_step': 26}","{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'use_shuffled': False, 'data_location': '../metaworld/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'inference_env': 'reach', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",sleek-smoke-2,"    average validation loss  _step  ...  train loss  average train loss
+0                       NaN      0  ...    0.164628                 NaN
+1                       NaN      1  ...    0.089397                 NaN
+2                       NaN      2  ...    0.034741                 NaN
+3                       NaN      3  ...    0.024388                 NaN
+4                       NaN      4  ...    0.034846                 NaN
+5                       NaN      5  ...    0.037064                 NaN
+6                       NaN      6  ...    0.034256                 NaN
+7                       NaN      7  ...    0.019031                 NaN
+8                       NaN      8  ...    0.014469                 NaN
+9                       NaN      9  ...    0.019615                 NaN
+10                      NaN     10  ...    0.017435                 NaN
+11                      NaN     11  ...    0.016837                 NaN
+12                      NaN     12  ...    0.016396                 NaN
+13                      NaN     13  ...    0.014096                 NaN
+14                      NaN     14  ...    0.008829                 NaN
+15                      NaN     15  ...    0.008779                 NaN
+16                      NaN     16  ...    0.008752                 NaN
+17                      NaN     17  ...    0.009952                 NaN
+18                      NaN     18  ...    0.010675                 NaN
+19                      NaN     19  ...    0.009168                 NaN
+20                      NaN     20  ...         NaN            0.029668
+21                      NaN     21  ...    0.010146                 NaN
+22                      NaN     22  ...    0.009738                 NaN
+23                      NaN     23  ...    0.010451                 NaN
+24                      NaN     24  ...    0.008983                 NaN
+25                      NaN     25  ...    0.008792                 NaN
+26                 0.009622     26  ...         NaN                 NaN
+
+[27 rows x 6 columns]"
+25,{'_wandb': {'runtime': 4}},"{'n': 100, 'lr': 0.0003, 'env': 'metaworld', 'mlp': False, 'rand_n': False, 'dem_env': 'reach', 'num_obs': None, 'shuffle': True, 'verbose': True, 'num_rings': 5, 'batch_size': 64, 'num_epochs': 1, 'num_trials': 5, 'save_model': True, 'saved_model': None, 'train_split': 0.8, 'use_shuffled': False, 'data_location': 'metaworld/runs/reach-v2-goal-observable/rollouts/desert-sea-19', 'inference_env': 'reach', 'permute_types': False, 'state_rep_dim': 3, 'wandb_project': 'sri-and-inference', 'dem_encoder_type': 'tst', 'dems_mirror_goal': False, 'internal_tst_dim': 100, 'num_state_layers': 2, 'inference_horizon': 150, 'state_hidden_size': 256, 'demonstration_type': 'normal', 'dems_circle_around': True, 'inference_episodes': 2, 'inference_batch_size': 16, 'demonstration_rep_dim': 3, 'direct_goal_inference': True, 'num_demonstration_layers': 2, 'demonstration_hidden_size': 256}",vibrant-galaxy-1,"Empty DataFrame
+Columns: []
+Index: []"

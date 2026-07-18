@@ -1,0 +1,24 @@
+defaults-config: 'reach_noise.yml'
+# dataset-path: null
+# circle-around: false
+# circle-radius: 0.1
+# mirror-goal: false
+# env: 'reach'
+# noise-coeff: 0.0
+num-tasks-per-env: 200
+num-envs: 64
+# num-rollouts-per-task: 100
+# goal-x-bounds: [-0.3, 0.3]
+# goal-y-bounds: [0.3, 0.7]
+# goal-z-bounds: [0.05, 0.3]
+# gripped-start: false
+# hand-speed: 30
+# horizon: 50
+# random-hand-starts: true
+# wandb-project: 'metaworld_generation'
+# gripped-start: false
+# render: false
+# model-path: null
+# extra-reward-info: true
+# chai-rollouts: false
+# algorithm: null

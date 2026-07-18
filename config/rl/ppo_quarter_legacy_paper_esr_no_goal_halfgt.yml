@@ -1,0 +1,2 @@
+defaults-config: 'ppo_quarter_legacy_paper_esr_no_goal_20m.yml'
+half-gt: true

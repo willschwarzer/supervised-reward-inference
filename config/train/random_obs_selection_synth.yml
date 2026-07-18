@@ -1,0 +1,2 @@
+defaults-config: 'random_obs_selection_default.yml'
+synthesize-obs: true

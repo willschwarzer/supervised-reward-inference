@@ -1,0 +1,43 @@
+render: false
+env: 'reach'
+batch-size: 16
+horizon: 500
+episodes: 10
+goal-x-bounds: [-0.3, 0.3]
+goal-y-bounds: [0.4, 0.7]
+goal-z-bounds: [0.05, 0.3]
+random-hand-starts: false
+num-goals: -1
+use-goal: null
+n: 100
+rand-n: false
+num-obs: -1
+demonstration-type: 'normal'
+include-actions: false
+limit-reward-obs: false
+limit-dem-obs: false
+gt-hand-init-pos: true
+baselines-only: false
+gripped-start: false
+skip-rl: false
+include-extra-reward-info: false
+include-partial-reward-info: false
+skip-all-inference: false
+only-rl: false
+mask-obj: false
+evaluation: false
+reinit-obj-pos: false
+random-hand-starts: false
+filter-inference-goals: true
+multi-obj-pos: false
+
+# gripped_start=env_config.gripped_start,
+# horizon=env_config.horizon,
+# extra_success_reward=env_config.extra_success_reward,
+# limit_reward_obs=env_config.limit_reward_obs,
+# unscale_reward=rl_config.unscale_rl_rewards,
+# use_gt_reward=rl_config.rl_use_gt_reward,
+# scale_gt_reward=rl_config.rl_scale_gt_reward,
+# use_gt_goal=rl_config.rl_use_gt_goal,
+# no_task_rep=rl_config.rl_no_task_rep,
+# proximity_reward=rl_config.proximity_reward,

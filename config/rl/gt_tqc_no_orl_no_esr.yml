@@ -1,0 +1,3 @@
+defaults-config: 'gt_no_orl.yml'
+algorithm: 'TQC'
+extra-success-reward: 0.0

@@ -1,0 +1,2 @@
+defaults-config: 'full_legacy.yml'
+algorithm: 'PPO'

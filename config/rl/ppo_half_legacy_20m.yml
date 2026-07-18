@@ -1,0 +1,2 @@
+defaults-config: 'tqc_half_legacy_paper_20m.yml'
+algorithm: 'PPO'

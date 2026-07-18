@@ -1,0 +1,3 @@
+defaults-config: 'default.yml'
+env: 'pick-place'
+reinit-obj-pos: true

@@ -1,0 +1,9 @@
+wandb-entity: 'your_wandb_entity'
+verbose: true
+run-dirs: 
+  - 'runs'
+  - 'scratch/runs'
+  - 'scratch_2/runs'
+  - 'scratch_3/runs'
+  - 'project/runs'
+  - 'project/sri/runs'

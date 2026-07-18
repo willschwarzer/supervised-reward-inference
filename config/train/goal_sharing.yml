@@ -1,0 +1,33 @@
+defaults-config: 'default.yml'
+dem-obs-share-goals: true
+num-obs: null
+# lr: 0.0003
+# save-model: true
+# num-epochs: 2000
+# batch-size: 16
+# train-split: 0.8
+# skip-reward-training: false
+# permute-types: false
+# env: 'reach'
+# use-shuffled: false
+# num-rings: 5 #
+# n: 100
+# rand-n: false
+# batch-reward-computation: true
+# scale-rewards: true
+# include-actions: false
+# synthesize-obs: false
+# synth-prop: 0.5
+# x-bounds: [-0.5, 0.5]
+# y-bounds: [0.2, 0.9]
+# z-bounds: [0.05, 0.5]
+# only-synth-tcp: false
+# synth-on-grid: true
+# synth-grid-size: 10
+# synth-edges-only: false
+# only-synthetic: false
+# gt-hand-init-pos: true
+# demonstration-type: 'normal'
+# synth-frame-stacking: false
+# shuffle: true
+# extra-success-reward: 5.0 # maybe move to model config later

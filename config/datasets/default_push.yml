@@ -1,0 +1,9 @@
+defaults-config: 'default.yml'
+horizon: 250
+random-hand-starts: true
+env: 'push'
+goal-z-bounds: [0.01, 0.02]
+goals-avoid-obj: true
+goals-avoid-obj-xy: false
+goals-avoid-obj-dist: 0.15
+goals-avoid-obj-pos: [0.0, 0.6, 0.02]

@@ -1,0 +1,4 @@
+defaults-config: 'full_legacy.yml'
+algorithm: 'SAC'
+batch-size: 128
+learning-rate: 0.0003

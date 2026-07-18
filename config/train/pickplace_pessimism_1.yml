@@ -1,0 +1,2 @@
+defaults-config: 'pickplace_default.yml'
+pessimism-factor: 1.0

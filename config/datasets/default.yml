@@ -1,0 +1,30 @@
+dataset-path: null
+circle-around: false
+circle-radius: 0.1
+mirror-goal: false
+env: 'reach'
+noise-coeff: 0.0
+num-tasks-per-env: 100
+num-envs: 16
+num-rollouts-per-task: 100
+goal-x-bounds: [-0.3, 0.3]
+goal-y-bounds: [0.4, 0.7]
+goal-z-bounds: [0.05, 0.3]
+gripped-start: false
+hand-speed: 30
+horizon: 50
+random-hand-starts: false
+wandb-project: 'metaworld_generation'
+model-path: null
+algorithm: null
+render: false
+extra-reward-info: true
+chai-rollouts: false
+random-gripping: false
+goals-avoid-obj: false
+goals-avoid-obj-xy: true
+goals-avoid-obj-dist: 0.15
+goals-avoid-obj-pos: [0.0, 0.6, 0.02]
+goal-pos-adjustment-factor: 1.0
+# dataset-path: runs/pick-place-v2-goal-observable/rollouts/winter-salad-202
+# dataset-path: runs/reach-v2-goal-observable/rollouts/youthful-morning-188

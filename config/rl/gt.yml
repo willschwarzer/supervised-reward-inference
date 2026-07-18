@@ -1,0 +1,5 @@
+use-gt-reward: true
+scale-gt-reward: true
+use-gt-goal: true
+no-task-rep: true
+defaults-config: 'default.yml'

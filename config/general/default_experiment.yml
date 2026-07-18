@@ -1,0 +1,2 @@
+defaults-config: 'default.yml'
+wandb-project: 'sri-n-experiments'

@@ -1,0 +1,3 @@
+defaults-config: 'pickplace_single_only_rl.yml'
+multi-obj-pos: true
+reinit-obj-pos: false

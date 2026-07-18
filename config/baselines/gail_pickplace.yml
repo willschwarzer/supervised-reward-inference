@@ -1,0 +1,2 @@
+defaults-config: 'pickplace.yml'
+baselines: ['gail']

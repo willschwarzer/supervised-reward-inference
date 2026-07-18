@@ -1,0 +1,3 @@
+defaults-config: 'tqc_quarter_legacy_paper_esr_5m.yml'
+num-envs: 2
+render-interval: 1000

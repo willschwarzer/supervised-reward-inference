@@ -1,0 +1,20 @@
+extra-success-reward: 0.0
+render-reward: true
+unscale-rewards: false
+use-gt-reward: false
+scale-gt-reward: false
+use-gt-goal: false
+no-task-rep: false
+proximity-reward: 0.0
+
+# args.reinit_goals = False  # need to add this for making envs
+# args.record_grips = False  # ditto
+# args.extra_success_reward = 0.0  # ditto
+# args.limit_reward_obs = False  # ditto
+# args.render_reward = False  # ditto
+# args.unscale_rl_rewards = False  # ditto
+# args.rl_use_gt_reward = False  # ditto
+# args.rl_scale_gt_reward = False  # ditto
+# args.rl_use_gt_goal = False  # ditto
+# args.rl_no_task_rep = False  # ditto
+# args.proximity_reward = 0.0  # ditto

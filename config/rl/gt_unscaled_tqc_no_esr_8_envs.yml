@@ -1,0 +1,3 @@
+defaults-config: 'gt_unscaled_tqc.yml'
+extra-success-reward: 0.0
+num-envs: 8

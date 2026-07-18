@@ -1,0 +1,15 @@
+# mlp: false
+saved-model-dir: runs/gentle-microwave-1714/models
+mlp: true
+direct-goal-inference: false
+num-demonstration-layers: 2
+num-state-layers: 2
+state-hidden-size: 256
+demonstration-hidden-size: 256
+reward-hidden-size: 256
+dem-encoder-type: 'tst'
+demonstration-rep-dim: 100
+internal-tst-dim: 100
+state-rep-dim: 100
+limit-reward-obs: false
+limit-dem-obs: false

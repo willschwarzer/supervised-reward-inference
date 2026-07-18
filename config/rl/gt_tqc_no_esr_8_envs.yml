@@ -1,0 +1,4 @@
+defaults-config: 'gt.yml'
+algorithm: 'TQC'
+extra-success-reward: 0.0
+num-envs: 8

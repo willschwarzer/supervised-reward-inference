@@ -1,0 +1,3 @@
+defaults-config: 'n10_pp_skip.yml'
+train-split: 0.8
+num-obs: 100

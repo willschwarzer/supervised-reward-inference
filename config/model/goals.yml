@@ -1,0 +1,4 @@
+defaults-config: 'default.yml'
+output-type: 'goal' # options: 'reward', 'goal', 'action'
+mlp: false
+demonstration-rep-dim: 3

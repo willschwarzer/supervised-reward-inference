@@ -1,0 +1,2 @@
+defaults-config: 'random_obs_selection_synth.yml'
+synth-grid-size: 4

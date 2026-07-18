@@ -1,0 +1,2 @@
+defaults-config: 'full_legacy_ppo.yml'
+batch-size: 64

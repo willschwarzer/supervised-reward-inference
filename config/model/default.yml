@@ -1,0 +1,15 @@
+load-model: false
+mlp: true
+num-demonstration-layers: 2
+num-state-layers: 2
+state-hidden-size: 256
+demonstration-hidden-size: 256
+reward-hidden-size: 256
+dem-encoder-type: 'tst'
+demonstration-rep-dim: 100
+internal-tst-dim: 100
+state-rep-dim: 100
+saved-model-dir: null
+limit-reward-obs: false
+limit-dem-obs: false
+output-type: 'reward' # options: 'reward', 'goal', 'action'

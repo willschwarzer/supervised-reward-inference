@@ -1,0 +1,3 @@
+defaults-config: 'reach_noise.yml'
+horizon: 150
+random-hand-starts: false

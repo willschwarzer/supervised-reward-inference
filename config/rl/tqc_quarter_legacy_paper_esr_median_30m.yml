@@ -1,0 +1,2 @@
+defaults-config: 'ppo_quarter_legacy_paper_esr_median_30m.yml'
+algorithm: 'TQC'

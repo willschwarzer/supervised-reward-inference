@@ -1,0 +1,2 @@
+defaults-config: 'n10_pp_no_esr.yml'
+skip-reward-training: true

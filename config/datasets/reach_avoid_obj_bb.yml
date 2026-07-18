@@ -1,0 +1,4 @@
+defaults-config: 'reach_avoid_obj.yml'
+goal-x-bounds: [-0.6, 0.6]
+goal-y-bounds: [0.3, 1.0]
+goal-z-bounds: [0.03, 0.5]

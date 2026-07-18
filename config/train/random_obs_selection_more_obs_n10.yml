@@ -1,0 +1,2 @@
+defaults-config: 'random_obs_selection_more_obs.yml'
+n: 10

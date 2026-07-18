@@ -1,0 +1,3 @@
+defaults-config: 'ppo_half_legacy_20m.yml'
+use-gt-goal: false
+no-task-rep: false

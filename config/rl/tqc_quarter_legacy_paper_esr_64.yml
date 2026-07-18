@@ -1,0 +1,3 @@
+defaults-config: 'ppo_quarter_legacy_paper_esr_64.yml'
+algorithm: 'TQC'
+learning-steps: 5000000

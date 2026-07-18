@@ -1,0 +1,6 @@
+defaults-config: 'no_orl.yml'
+algorithm: 'TQC'
+learning-rate: 0.0003
+batch-size: 128
+unscale-rewards: true
+use-sde: false

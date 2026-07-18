@@ -1,0 +1,2 @@
+defaults-config: 'default.yml'
+reward-label-dist: [0.2, 0.2, 0.2, 0.2, 0.2]

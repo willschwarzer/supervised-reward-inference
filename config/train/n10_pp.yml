@@ -1,0 +1,2 @@
+defaults-config: 'n10.yml'
+env: 'pick-place'

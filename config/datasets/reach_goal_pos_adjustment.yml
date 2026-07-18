@@ -1,0 +1,4 @@
+defaults-config: 'default.yml'
+num-rollouts-per-task: 1
+num-envs: 16
+horizon: 100

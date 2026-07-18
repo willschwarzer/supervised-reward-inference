@@ -1,0 +1,2 @@
+defaults-config: 'gt_tqc_no_esr_8_envs.yml'
+offline-rejection-sampling-bias-factor: 1.0

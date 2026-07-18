@@ -1,0 +1,2 @@
+defaults-config: 'pickplace_synth_minimal_more_obs.yml'
+extra-success-reward: 0.0

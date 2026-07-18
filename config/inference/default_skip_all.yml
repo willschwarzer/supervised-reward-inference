@@ -1,0 +1,2 @@
+defaults-config: 'default.yml'
+skip-all-inference: true

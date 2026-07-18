@@ -1,0 +1,2 @@
+defaults-config: 'pickplace_default.yml'
+synthesize-obs: true

@@ -1,0 +1,2 @@
+defaults-config: 'pickplace_single.yml'
+only-rl: true

@@ -1,0 +1,2 @@
+defaults-config: 'ppo_quarter_legacy_paper_esr_no_goal.yml'
+extra-success-reward: 0.0
