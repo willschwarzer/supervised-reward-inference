@@ -88,7 +88,6 @@ dependencies:
       - pygame==2.5.2
       - pynvml==11.5.0
       - pyopengl==3.1.7
-      - pyopengl-accelerate==3.1.7
       - pyparsing==3.1.1
       - python-dateutil==2.8.2
       - pytz==2023.3.post1
