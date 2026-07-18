@@ -18,27 +18,17 @@ SRI infers reward functions from arbitrarily suboptimal or communicative behavio
 
 ## Installation
 
-Two conda environments are used: a main environment for all SRI/Meta-World code, and a separate TF1 environment only needed for the tabular-benchmark (Figure 4) baselines.
-
-On Linux (the platform the experiments ran on), use the exact exported environment:
+Create the main environment (Linux / macOS / Windows-WSL):
 
 ```bash
-# Main environment
 conda env create -f env.yml
-conda activate meta-world
-
-# TF1 environment (only for learning_biases/ baselines)
-conda env create -f env_learning_biases_tf1.yml
-```
-
-On macOS or Windows (WSL recommended), use the portable spec instead — same package pins, without the Linux-specific conda packages:
-
-```bash
-conda env create -f env_portable.yml
 conda activate sri
 ```
 
-Rendering defaults to headless `osmesa`; on a machine with a display, set `MUJOCO_GL` accordingly (e.g. `MUJOCO_GL=glfw` on macOS). The TF1 environment is Linux-only (TensorFlow 1.x has no Apple-Silicon builds), but it is needed only for the Figure 4 baseline comparisons.
+Two variants exist for specific needs:
+
+- **Exact reproduction on Linux clusters**: `env_linux_exact.yml` is the exact environment export (build strings and all) from the cluster the experiments ran on. It also provides the OSMesa/X system libraries for headless MuJoCo rendering via conda; with the portable `env.yml` on a headless Linux box, install OSMesa from your system package manager instead (or set `MUJOCO_GL` to a backend you have). On machines with a display, set e.g. `MUJOCO_GL=glfw`.
+- **Tabular-benchmark (Figure 4) baselines only**: `env_learning_biases_tf1.yml`, a second environment for the TF1-era Shah et al. code. Linux-only (TensorFlow 1.x has no Apple-Silicon builds).
 
 Then expose the vendored packages, from the repository root:
 
