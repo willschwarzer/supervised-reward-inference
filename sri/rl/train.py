@@ -1,7 +1,9 @@
 import os
 
-os.environ["MUJOCO_GL"] = "osmesa"
-os.environ["PYOPENGL_PLATFORM"] = "osmesa"
+# Default to headless software rendering (Linux clusters); override by setting
+# MUJOCO_GL yourself (e.g. MUJOCO_GL=glfw on macOS).
+os.environ.setdefault("MUJOCO_GL", "osmesa")
+os.environ.setdefault("PYOPENGL_PLATFORM", "osmesa")
 import random
 import numpy as np
 import torch

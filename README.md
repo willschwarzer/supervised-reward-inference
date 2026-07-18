@@ -18,7 +18,9 @@ SRI infers reward functions from arbitrarily suboptimal or communicative behavio
 
 ## Installation
 
-Two conda environments are used: a main environment for all SRI/Meta-World code, and a separate TF1 environment only needed for the tabular-benchmark (Figure 4) baselines. Both environment files are Linux x86-64 specs (exported from the cluster the experiments ran on).
+Two conda environments are used: a main environment for all SRI/Meta-World code, and a separate TF1 environment only needed for the tabular-benchmark (Figure 4) baselines.
+
+On Linux (the platform the experiments ran on), use the exact exported environment:
 
 ```bash
 # Main environment
@@ -28,6 +30,15 @@ conda activate meta-world
 # TF1 environment (only for learning_biases/ baselines)
 conda env create -f env_learning_biases_tf1.yml
 ```
+
+On macOS or Windows (WSL recommended), use the portable spec instead — same package pins, without the Linux-specific conda packages:
+
+```bash
+conda env create -f env_portable.yml
+conda activate sri
+```
+
+Rendering defaults to headless `osmesa`; on a machine with a display, set `MUJOCO_GL` accordingly (e.g. `MUJOCO_GL=glfw` on macOS). The TF1 environment is Linux-only (TensorFlow 1.x has no Apple-Silicon builds), but it is needed only for the Figure 4 baseline comparisons.
 
 Then expose the vendored packages, from the repository root:
 
